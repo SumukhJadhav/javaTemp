@@ -1,0 +1,24 @@
+package intro;
+
+import java.util.Scanner;
+
+
+public class basic {
+
+	public static void main(String[] args) {
+	
+		Scanner obj = new Scanner(System.in);
+		
+		String fName = "Vishal";
+		//Reverse a String
+		
+		for(int i=fName.length(); i < 0; i--) {
+			System.out.print(fName.charAt(i));
+			System.out.println(i);
+		}
+		
+		
+	}
+	
+}
+

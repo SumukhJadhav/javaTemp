@@ -1,0 +1,26 @@
+package intro;
+
+import java.util.Arrays;
+import java.util.Scanner;
+import java.io.File;
+
+
+
+public class basic {
+	
+	public static void main(String[] args) {
+		int[] num = {1,2,3,4};
+		
+		try {
+			num[100] = 90;
+		}
+		catch(Exception e) {
+			System.out.println("Failed");
+			System.out.println(e);
+		}
+		
+	
+	}
+	
+}
+

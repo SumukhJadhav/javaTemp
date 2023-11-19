@@ -1,0 +1,19 @@
+package intro;
+
+
+import javax.swing.JFrame;
+
+public class basic {
+	
+	public static void main(String[] args) {
+		//Swing UI	
+		
+		JFrame frame = new JFrame("Sum calculator");
+		
+		frame.setSize(600,200);
+		
+		frame.setVisible(true);
+}	
+	
+}
+

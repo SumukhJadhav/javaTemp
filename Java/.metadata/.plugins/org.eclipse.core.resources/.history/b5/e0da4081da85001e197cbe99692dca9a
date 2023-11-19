@@ -1,0 +1,30 @@
+package intro;
+
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+
+public class basic {
+	
+	public static void main(String[] args) {;
+		String url = "jdbc:mysql://localhost:3306/xyzschool";
+		String user = "smoke";
+		String password = "hellomoto";
+		
+		try {
+			Connection con = DriverManager.getConnection(url, user, password);
+			
+			System.out.println(con);
+		
+		} catch (Exception e) {
+			e.printStackTrace();
+		} 
+	
+
+		
+
+}	
+	
+}
+

@@ -1,0 +1,28 @@
+package intro;
+
+import java.util.Scanner;
+
+
+public class basic {
+
+	public static void main(String[] args) {
+	
+		Scanner obj = new Scanner(System.in);
+		
+		String pass;
+		System.out.print("Enter a password:");
+		pass = obj.nextLine();
+		
+		int passLen = pass.length();
+		
+		if (passLen > 8) {
+			System.out.println("This is a good password!");
+		}
+		
+		else {
+			System.out.println("This is a weak password");
+		}
+	}
+	
+}
+

@@ -1,0 +1,29 @@
+package intro;
+
+import java.util.Scanner;
+
+
+public class basic {
+
+	public static void main(String[] args) {
+	
+		Scanner obj = new Scanner(System.in);
+		
+		int health, speed;
+		
+		health = 91;
+		speed = 80;
+		
+	
+		int x = 5;
+
+		
+		int i;
+		for (i = 2; i<30; i = i + 2) {
+			System.out.println(i);
+		}
+		
+	}
+	
+}
+

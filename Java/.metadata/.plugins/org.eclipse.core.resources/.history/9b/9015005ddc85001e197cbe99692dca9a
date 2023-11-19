@@ -1,0 +1,36 @@
+package intro;
+
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+
+public class basic {
+	
+	public static void main(String[] args) {;
+		String url = "jdbc:mysql://localhost:3306/zschool";
+		String user = "smoke";
+		String password = "hellomoto";
+		
+		try {
+			Connection con = DriverManager.getConnection(url, user, password);
+			
+			Statement statement = con.createStatement();
+			
+			int x  = statement.executeUpdate("update class1 set name='Ajay' where rollNo=1");
+	
+			
+		
+		} catch (Exception e) {
+			e.printStackTrace();
+		} 
+	
+
+		
+
+}	
+	
+}
+

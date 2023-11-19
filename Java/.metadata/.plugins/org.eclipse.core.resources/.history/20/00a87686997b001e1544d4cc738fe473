@@ -1,0 +1,18 @@
+package intro;
+
+import java.util.Scanner;
+
+
+public class basic {
+	
+	static void fullName(String fName, String lName) {
+		String fullName = fName + " " + lName;
+		System.out.println(fullName);
+	}
+	
+	public static void main(String[] args) {
+		fullName("Vishal","Kkumar");
+	}
+	
+}
+

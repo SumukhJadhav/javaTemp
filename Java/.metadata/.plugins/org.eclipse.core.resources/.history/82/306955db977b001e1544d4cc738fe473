@@ -1,0 +1,17 @@
+package intro;
+
+import java.util.Scanner;
+
+
+public class basic {
+	
+	static void xyz(int x) {
+		System.out.println(x);
+	}
+	
+	public static void main(String[] args) {
+		xyz(3);
+	}
+	
+}
+

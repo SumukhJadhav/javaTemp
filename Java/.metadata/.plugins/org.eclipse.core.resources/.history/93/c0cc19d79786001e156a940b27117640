@@ -1,0 +1,31 @@
+package intro;
+
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+import javax.swing.JLabel;
+
+public class basic {
+	
+	public static void main(String[] args) {
+		//Swing UI	
+		
+		JFrame frame = new JFrame("Sum calculator");
+		JPanel panel = new JPanel();
+		
+		JLabel label1 = new JLabel("Hello world");
+		
+		panel.add(label1);
+		
+		
+		frame.getContentPane().add(panel);
+		
+		
+		
+		frame.setSize(300,200);
+		frame.setVisible(true);
+}	
+	
+}
+

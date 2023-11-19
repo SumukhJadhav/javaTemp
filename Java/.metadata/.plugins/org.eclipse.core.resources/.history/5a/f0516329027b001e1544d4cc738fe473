@@ -1,0 +1,29 @@
+package intro;
+
+import java.util.Scanner;
+
+
+public class basic {
+
+	public static void main(String[] args) {
+	
+		Scanner obj = new Scanner(System.in);
+		
+		int health, speed;
+		
+		health = 91;
+		speed = 80;
+		
+		int multiple = 3;
+		
+		while (multiple < 100) {
+			multiple = multiple + 3;
+			System.out.println(multiple);
+			
+		}
+		
+		
+	}
+	
+}
+

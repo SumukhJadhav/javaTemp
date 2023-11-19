@@ -1,0 +1,20 @@
+package intro;
+
+import java.util.Scanner;
+
+
+public class basic {
+	
+	static void xyz() {
+		System.out.println("Helloo");
+		int x = 10;
+		System.out.println(10);
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("Good morning");
+		xyz();
+	}
+	
+}
+

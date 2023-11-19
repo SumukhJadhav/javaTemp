@@ -1,0 +1,19 @@
+package intro;
+
+import java.util.Scanner;
+
+
+public class basic {
+	
+	static void square(int x) {
+		int sq = x * x;
+		System.out.println(sq);
+	}
+	
+	public static void main(String[] args) {
+		square(50);
+		square(11);
+	}
+	
+}
+

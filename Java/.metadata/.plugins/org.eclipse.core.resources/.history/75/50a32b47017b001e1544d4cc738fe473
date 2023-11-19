@@ -1,0 +1,26 @@
+package intro;
+
+import java.util.Scanner;
+
+
+public class basic {
+
+	public static void main(String[] args) {
+	
+		Scanner obj = new Scanner(System.in);
+		
+		int health, speed;
+		
+		health = 91;
+		speed = 80;
+		
+		while (speed < 90) {
+			System.out.println(speed);
+			speed = speed + 1;
+		}
+		
+		
+	}
+	
+}
+

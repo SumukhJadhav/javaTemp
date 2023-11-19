@@ -1,0 +1,23 @@
+package intro;
+
+import java.util.Scanner;
+
+
+public class basic {
+
+	public static void main(String[] args) {
+	
+		Scanner obj = new Scanner(System.in);
+		
+		String fName = "Vishal";
+
+		System.out.println(fName.charAt(0));
+		System.out.println(fName.charAt(1));
+		System.out.println(fName.charAt(2));
+		System.out.println(fName.charAt(3));
+		System.out.println(fName.charAt(4));
+		
+	}
+	
+}
+

@@ -1,0 +1,21 @@
+package intro;
+
+import java.util.Scanner;
+
+
+public class basic {
+	
+	static void xyz() {
+		System.out.println("Hello");
+		xyz();
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		xyz();
+	}
+	
+}
+
